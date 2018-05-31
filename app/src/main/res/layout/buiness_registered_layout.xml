@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login">
+
+    <LinearLayout
+        android:background="@color/button2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Buiness_register_back"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/button2"
+        android:text="@string/return1"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="欢迎注册省省商家"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.example.lenovo.myapplication.RoundImageView
+        android:src="@drawable/timg"
+        android:layout_marginTop="15dp"
+        android:id="@+id/topImage"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="(请先键入用户名再上传头像)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+
+        android:layout_gravity="center"
+        android:id="@+id/Buiness_Register_username"
+        android:hint="@string/buiness_name"
+        android:layout_width="250dp"
+        android:ems="10"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/Buiness_name_1"
+        android:hint="@string/buiness_name1"
+        android:layout_width="250dp"
+        android:ems="10"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/Buiness_Register_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/buiness_code"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/Buiness_confirm_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/buiness_confrim"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:hint="@string/buiness_phone"
+        android:id="@+id/Buiness_phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:hint="@string/buiness_address"
+        android:id="@+id/Buiness_address"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+</LinearLayout>
+
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/Buiness_register"
+        android:text="@string/register"
+        android:background="@drawable/shape"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
